@@ -1,0 +1,9 @@
+{
+  "version": "2",
+  "remote": {
+    "https://cdn.skypack.dev/-/solid-js@v1.7.5-4FdmBfvk9OBx8v79IzcF/dist=es2019,mode=imports/optimized/common/solid-eac16724.js": "f7294108bac8bb73b4fd95bd2b66d2fe50e8c395a687f6ed1947b1cd6aa3beb6",
+    "https://cdn.skypack.dev/-/solid-js@v1.7.5-4FdmBfvk9OBx8v79IzcF/dist=es2019,mode=imports/optimized/common/web-bb799de8.js": "e443f1247d55ec815d6318e07a98d372ab2274fba600c2451da0c2c50e141de4",
+    "https://cdn.skypack.dev/-/solid-js@v1.7.5-4FdmBfvk9OBx8v79IzcF/dist=es2019,mode=imports/optimized/solid-js/h.js": "7fe87badc8485512fabc66b42942476abbed1fe395300f5122df1a3ce7c0adf4",
+    "https://cdn.skypack.dev/solid-js/h": "3c6528204365d538575816f8953e6982c9d8c3c035ca3794dcceb8f6088b7998"
+  }
+}

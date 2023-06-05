@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "lib": [
+      "deno.ns",
+      "dom"
+    ],
+    "checkJs": true
+  }
+}
