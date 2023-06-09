@@ -134,6 +134,22 @@ pub external fn attr(node: Node, k: String, v: String) -> Node =
 pub external fn style(node: Node, k: String, v: String) -> Node =
   "../ffi_property.mjs" "style"
 
+
+pub external fn id(node: Node, v: string) -> Node =
+  "../ffi_property.mjs" "id"
+
+pub external fn src(node: Node, v: string) -> Node =
+  "../ffi_property.mjs" "src"
+
+pub external fn alt(node: Node, v: string) -> Node =
+  "../ffi_property.mjs" "alt"
+
+pub external fn href(node: Node, v: string) -> Node =
+  "../ffi_property.mjs" "href"
+
+pub external fn target(node: Node, v: string) -> Node =
+  "../ffi_property.mjs" "target"
+
 pub external fn class(node: Node, v: String) -> Node =
   "../ffi_property.mjs" "class"
 `;
