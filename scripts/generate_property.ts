@@ -50,6 +50,25 @@ function class_(node, v) {
 
 export { class_ as class };
 
+export function id(node, v) {
+  return attr(node, "id", v) 
+}
+
+export function src(node, v) {
+  return attr(node, "src", v) 
+}
+
+export function alt(node, v) {
+  return attr(node, "alt", v) 
+}
+
+export function href(node, v) {
+  return attr(node, "href", v) 
+}
+
+export function target(node, v) {
+  return attr(node, "target", v) 
+}
 
 export function attr(node, k, v) {
   if (!node[$ELEMENT]) return node;
