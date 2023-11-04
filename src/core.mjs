@@ -3,7 +3,7 @@ import { render } from "https://cdn.skypack.dev/solid-js/web";
 import h from "https://cdn.skypack.dev/solid-js/h";
 import { createSignal } from "https://cdn.skypack.dev/solid-js";
 
-export const $render = (
+export const create_render = (
   /** @type {() => HTMLElement} */ node,
   /** @type {HTMLElement} */ element,
 ) => {

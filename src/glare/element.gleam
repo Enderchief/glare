@@ -1,12 +1,11 @@
-@external(javascript, "../ffi_element.mjs", "$h")
-pub fn h(
+pub type Node
+
+@external(javascript, "../ffi_element.mjs", "create_h")
+pub fn create_h(
   tag: String,
   props: #(String, String),
   children: List(Node),
 ) -> Node
-
-@external(javascript, "Node")
-pub type Node
 
 @external(javascript, "../ffi_element.mjs", "a")
 pub fn a(children: List(Node)) -> Node
@@ -31,11 +30,13 @@ pub fn audio(children: List(Node)) -> Node
 
 @external(javascript, "../ffi_element.mjs", "b")
 pub fn b(children: List(Node)) -> Node
+
 @external(javascript, "../ffi_element.mjs", "base")
 pub fn base(children: List(Node)) -> Node
 
 @external(javascript, "../ffi_element.mjs", "bdi")
 pub fn bdi(children: List(Node)) -> Node
+
 @external(javascript, "../ffi_element.mjs", "bdo")
 pub fn bdo(children: List(Node)) -> Node
 
@@ -43,7 +44,6 @@ pub fn bdo(children: List(Node)) -> Node
 pub fn blockquote(children: List(Node)) -> Node
 
 @external(javascript, "../ffi_element.mjs", "body")
-
 pub fn body(children: List(Node)) -> Node
 
 @external(javascript, "../ffi_element.mjs", "br")
@@ -324,8 +324,10 @@ pub fn textarea(children: List(Node)) -> Node
 
 @external(javascript, "../ffi_element.mjs", "tfoot")
 pub fn tfoot(children: List(Node)) -> Node
+
 @external(javascript, "../ffi_element.mjs", "th")
 pub fn th(children: List(Node)) -> Node
+
 @external(javascript, "../ffi_element.mjs", "thead")
 pub fn thead(children: List(Node)) -> Node
 

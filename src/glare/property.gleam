@@ -5,7 +5,7 @@
 ////    |> font("Lexend")
 ////    |> PROPERTY_FUNCTION("STRINGED VALUE")
 
-import glare/element.{Node}
+import glare/element.{type Node}
 
 /// Add an attribute on a node
 /// 

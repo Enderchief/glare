@@ -8,8 +8,8 @@ pub type HtmlElement
 ///       return h1([text("hello world")])
 ///     }
 ///     render(content(), bodyelement)
-@external(javascript, "./core.mjs", "$render")
-pub fn render(node: Node, elem: HtmlElement) -> Nil
+@external(javascript, "./core.mjs", "create_render")
+pub fn create_render(node: Node, elem: HtmlElement) -> Nil
 
 /// Select a dom element
 /// used for mounting to, see [`render`](#render)
