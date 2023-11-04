@@ -1,7 +1,7 @@
 import glare/element.{Node, button, div, header, main, p}
 import glare/property.{attr, class, font_family, size, style}
 import glare/event.{onclick}
-import glare.{render, select, signal, text}
+import glare.{create_render, select, signal, text}
 import glare/hooks.{create_signal}
 import gleam/io
 
@@ -39,5 +39,5 @@ pub fn body() -> Node {
 }
 
 pub fn run() {
-  render(body(), select("body"))
+  create_render(body(), select("body"))
 }

@@ -10,5 +10,5 @@ description = "A Gleam project"
 # links = [{ title = "Website", href = "https://gleam.run" }]
 
 [dependencies]
-gleam_stdlib = "~> 0.29"
-glare = "~> 0.1"
+gleam_stdlib = "~> 0.31"
+glare = {path = "/Users/alex/Documents/projects/glare"}
