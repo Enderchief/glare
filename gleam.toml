@@ -12,5 +12,5 @@ links = [{ title = "Website", href = "https://endercheif.github.io/glare" }]
 target = 'javascript'
 
 [dependencies]
-gleam_stdlib = "~> 0.29"
+gleam_stdlib = "~> 0.31"
 

@@ -7,5 +7,5 @@
 ///     > io.println(int.to_string(count()))
 ///     1
 ///
-pub external fn create_signal(v: a) -> #(fn() -> a, fn(a) -> Nil) =
-  "../core.mjs" "create_signal"
+@external(javascript, "../core.mjs", "create_signal")
+pub fn create_signal(v: a) -> #(fn() -> a, fn(a) -> Nil)
