@@ -53,158 +53,201 @@ pub fn bdo(children: List(Node)) -> Node
 pub fn blockquote(children: List(Node)) -> Node
   "../ffi_element.mjs" "blockquote"
 
+@external(javascript, "../ffi_element.mjs", "body")
+
 pub fn body(children: List(Node)) -> Node
   "../ffi_element.mjs" "body"
 
+@external(javascript, "../ffi_element.mjs", "br")
 pub fn br(children: List(Node)) -> Node
   "../ffi_element.mjs" "br"
 
+@external(javascript, "../ffi_element.mjs", "button")
 pub fn button(children: List(Node)) -> Node
-  "../ffi_element.mjs" "button"
 
+@external(javascript, "../ffi_element.mjs", "canvas")
 pub fn canvas(children: List(Node)) -> Node
-  "../ffi_element.mjs" "canvas"
 
+@external(javascript, "../ffi_element.mjs", "caption")
 pub fn caption(children: List(Node)) -> Node
   "../ffi_element.mjs" "caption"
 
+@external(javascript, "../ffi_element.mjs", "cite")
 pub fn cite(children: List(Node)) -> Node
   "../ffi_element.mjs" "cite"
 
+@external(javascript, "../ffi_element.mjs", "code")
 pub fn code(children: List(Node)) -> Node
   "../ffi_element.mjs" "code"
 
+@external(javascript, "../ffi_element.mjs", "col")
 pub fn col(children: List(Node)) -> Node
   "../ffi_element.mjs" "col"
 
+@external(javascript, "../ffi_element.mjs", "colgroup")
 pub fn colgroup(children: List(Node)) -> Node
-  "../ffi_element.mjs" "colgroup"
 
+@external(javascript, "../ffi_element.mjs", "data")
 pub fn data(children: List(Node)) -> Node
   "../ffi_element.mjs" "data"
 
+@external(javascript, "../ffi_element.mjs", "datalist")
 pub fn datalist(children: List(Node)) -> Node
   "../ffi_element.mjs" "datalist"
 
+@external(javascript, "../ffi_element.mjs", "dd")
 pub fn dd(children: List(Node)) -> Node
   "../ffi_element.mjs" "dd"
 
+@external(javascript, "../ffi_element.mjs", "del")
 pub fn del(children: List(Node)) -> Node
   "../ffi_element.mjs" "del"
 
+@external(javascript, "../ffi_element.mjs", "details")
 pub fn details(children: List(Node)) -> Node
   "../ffi_element.mjs" "details"
 
+@external(javascript, "../ffi_element.mjs", "dfn")
 pub fn dfn(children: List(Node)) -> Node
   "../ffi_element.mjs" "dfn"
 
+@external(javascript, "../ffi_element.mjs", "dialog")
 pub fn dialog(children: List(Node)) -> Node
   "../ffi_element.mjs" "dialog"
 
+@external(javascript, "../ffi_element.mjs", "dir")
 pub fn dir(children: List(Node)) -> Node
-  "../ffi_element.mjs" "dir"
 
+@external(javascript, "../ffi_element.mjs", "div")
 pub fn div(children: List(Node)) -> Node
   "../ffi_element.mjs" "div"
 
+@external(javascript, "../ffi_element.mjs", "dl")
 pub fn dl(children: List(Node)) -> Node
   "../ffi_element.mjs" "dl"
 
+@external(javascript, "../ffi_element.mjs", "dt")
 pub fn dt(children: List(Node)) -> Node
   "../ffi_element.mjs" "dt"
 
+@external(javascript, "../ffi_element.mjs", "em")
 pub fn em(children: List(Node)) -> Node
   "../ffi_element.mjs" "em"
 
+@external(javascript, "../ffi_element.mjs", "embed")
 pub fn embed(children: List(Node)) -> Node
   "../ffi_element.mjs" "embed"
 
+@external(javascript, "../ffi_element.mjs", "fieldset")
 pub fn fieldset(children: List(Node)) -> Node
   "../ffi_element.mjs" "fieldset"
 
+@external(javascript, "../ffi_element.mjs", "figcaption")
 pub fn figcaption(children: List(Node)) -> Node
   "../ffi_element.mjs" "figcaption"
 
+@external(javascript, "../ffi_element.mjs", "figure")
 pub fn figure(children: List(Node)) -> Node
   "../ffi_element.mjs" "figure"
 
+@external(javascript, "../ffi_element.mjs", "font")
 pub fn font(children: List(Node)) -> Node
   "../ffi_element.mjs" "font"
 
+@external(javascript, "../ffi_element.mjs", "footer")
 pub fn footer(children: List(Node)) -> Node
   "../ffi_element.mjs" "footer"
 
+@external(javascript, "../ffi_element.mjs", "form")
 pub fn form(children: List(Node)) -> Node
   "../ffi_element.mjs" "form"
 
+@external(javascript, "../ffi_element.mjs", "frame")
 pub fn frame(children: List(Node)) -> Node
   "../ffi_element.mjs" "frame"
 
+@external(javascript, "../ffi_element.mjs", "frameset")
 pub fn frameset(children: List(Node)) -> Node
   "../ffi_element.mjs" "frameset"
 
+@external(javascript, "../ffi_element.mjs", "h1")
 pub fn h1(children: List(Node)) -> Node
   "../ffi_element.mjs" "h1"
 
+@external(javascript, "../ffi_element.mjs", "h2")
 pub fn h2(children: List(Node)) -> Node
   "../ffi_element.mjs" "h2"
 
+@external(javascript, "../ffi_element.mjs", "h3")
 pub fn h3(children: List(Node)) -> Node
   "../ffi_element.mjs" "h3"
 
+@external(javascript, "../ffi_element.mjs", "h4")
 pub fn h4(children: List(Node)) -> Node
   "../ffi_element.mjs" "h4"
 
+@external(javascript, "../ffi_element.mjs", "h5")
 pub fn h5(children: List(Node)) -> Node
   "../ffi_element.mjs" "h5"
 
+@external(javascript, "../ffi_element.mjs", "h6")
 pub fn h6(children: List(Node)) -> Node
-  "../ffi_element.mjs" "h6"
 
+@external(javascript, "../ffi_element.mjs", "head")
 pub fn head(children: List(Node)) -> Node
-  "../ffi_element.mjs" "head"
 
+@external(javascript, "../ffi_element.mjs", "header")
 pub fn header(children: List(Node)) -> Node
   "../ffi_element.mjs" "header"
 
+@external(javascript, "../ffi_element.mjs", "hgroup")
 pub fn hgroup(children: List(Node)) -> Node
   "../ffi_element.mjs" "hgroup"
 
+@external(javascript, "../ffi_element.mjs", "hr")
 pub fn hr(children: List(Node)) -> Node
   "../ffi_element.mjs" "hr"
 
+@external(javascript, "../ffi_element.mjs", "html")
 pub fn html(children: List(Node)) -> Node
   "../ffi_element.mjs" "html"
 
+@external(javascript, "../ffi_element.mjs", "i")
 pub fn i(children: List(Node)) -> Node
   "../ffi_element.mjs" "i"
 
+@external(javascript, "../ffi_element.mjs", "iframe")
 pub fn iframe(children: List(Node)) -> Node
   "../ffi_element.mjs" "iframe"
 
+@external(javascript, "../ffi_element.mjs", "img")
 pub fn img(children: List(Node)) -> Node
   "../ffi_element.mjs" "img"
 
+@external(javascript, "../ffi_element.mjs", "input")
 pub fn input(children: List(Node)) -> Node
   "../ffi_element.mjs" "input"
 
+@external(javascript, "../ffi_element.mjs", "ins")
 pub fn ins(children: List(Node)) -> Node
   "../ffi_element.mjs" "ins"
 
+@external(javascript, "../ffi_element.mjs", "kbd")
 pub fn kbd(children: List(Node)) -> Node
   "../ffi_element.mjs" "kbd"
 
+@external(javascript, "../ffi_element.mjs", "label")
 pub fn label(children: List(Node)) -> Node
   "../ffi_element.mjs" "label"
 
+@external(javascript, "../ffi_element.mjs", "legend")
 pub fn legend(children: List(Node)) -> Node
-  "../ffi_element.mjs" "legend"
 
+@external(javascript, "../ffi_element.mjs", "li")
 pub fn li(children: List(Node)) -> Node
-  "../ffi_element.mjs" "li"
 
+@external(javascript, "../ffi_element.mjs", "link")
 pub fn link(children: List(Node)) -> Node
-  "../ffi_element.mjs" "link"
 
 pub fn main(children: List(Node)) -> Node
   "../ffi_element.mjs" "main"
@@ -263,28 +306,29 @@ pub fn pre(children: List(Node)) -> Node
 pub fn progress(children: List(Node)) -> Node
   "../ffi_element.mjs" "progress"
 
+@external(javascript, "../ffi_element.mjs", "q")
 pub fn q(children: List(Node)) -> Node
-  "../ffi_element.mjs" "q"
 
+@external(javascript, "../ffi_element.mjs", "rp")
 pub fn rp(children: List(Node)) -> Node
-  "../ffi_element.mjs" "rp"
 
+@external(javascript, "../ffi_element.mjs", "rt")
 pub fn rt(children: List(Node)) -> Node
   "../ffi_element.mjs" "rt"
 
+@external(javascript, "../ffi_element.mjs", "ruby")
 pub fn ruby(children: List(Node)) -> Node
   "../ffi_element.mjs" "ruby"
 
+@external(javascript, "../ffi_element.mjs", "s")
 pub fn s(children: List(Node)) -> Node
   "../ffi_element.mjs" "s"
 
 @external(javascript, "../ffi_element.mjs", "samp")
 pub fn samp(children: List(Node)) -> Node
-  "../ffi_element.mjs" "samp"
 
 @external(javascript, "../ffi_element.mjs", "script")
 pub fn script(children: List(Node)) -> Node
-  "../ffi_element.mjs" "script"
 
 @external(javascript, "../ffi_element.mjs", "section")
 pub fn section(children: List(Node)) -> Node
@@ -312,7 +356,6 @@ pub fn span(children: List(Node)) -> Node
 
 @external(javascript, "../ffi_element.mjs", "strong")
 pub fn strong(children: List(Node)) -> Node
-  "../ffi_element.mjs" "strong"
 
 @external(javascript, "../ffi_element.mjs", "style")
 pub fn style(children: List(Node)) -> Node
@@ -359,10 +402,10 @@ pub fn th(children: List(Node)) -> Node
 @external(javascript, "../ffi_element.mjs", "thead")
 pub fn thead(children: List(Node)) -> Node
   "../ffi_element.mjs" "thead"
-@external(javascript, "../ffi_element.mjs", "time")
 
+@external(javascript, "../ffi_element.mjs", "time")
 pub fn time(children: List(Node)) -> Node
-  "../ffi_element.mjs" "time"
+
 @external(javascript, "../ffi_element.mjs", "title")
 pub fn title(children: List(Node)) -> Node
   "../ffi_element.mjs" "title"
@@ -376,11 +419,9 @@ pub fn track(children: List(Node)) -> Node
 
 @external(javascript, "../ffi_element.mjs", "u")
 pub fn u(children: List(Node)) -> Node
-  "../ffi_element.mjs" "u"
 
 @external(javascript, "../ffi_element.mjs", "ul")
 pub fn ul(children: List(Node)) -> Node
-  "../ffi_element.mjs" "ul"
 
 @external(javascript, "../ffi_element.mjs", "video")
 pub fn video(children: List(Node)) -> Node
