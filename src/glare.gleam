@@ -22,8 +22,8 @@ pub fn int(v: Int) -> Node
 
 /// Wraps `String` into [`Node`](./glare/element.html#Node)
 @external(javascript, "./core.mjs", "wrap")
-fn text(v: String) -> Node
+pub fn text(v: String) -> Node
 
 /// Wrap a signal getter into [`Node`](./glare/element.html#Node)
 @external(javascript, "./core.mjs", "wrap")
-fn signal(v: fn() -> a) -> Node
+pub fn signal(v: fn() -> a) -> Node

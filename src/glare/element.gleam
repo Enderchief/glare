@@ -202,7 +202,7 @@ pub fn main(children: List(Node)) -> Node
 @external(javascript, "../ffi_element.mjs", "map")
 pub fn map(children: List(Node)) -> Node
 
-@external(javascript, "../ffi_element.mjs", "maark")
+@external(javascript, "../ffi_element.mjs", "mark")
 pub fn mark(children: List(Node)) -> Node
 
 @external(javascript, "../ffi_element.mjs", "marquee")

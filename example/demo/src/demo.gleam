@@ -1,4 +1,4 @@
-import glare/element.{Node, button, div, header, main, p}
+import glare/element.{type Node, button, div, header, main, p}
 import glare/property.{attr, class, font_family, size, style}
 import glare/event.{onclick}
 import glare.{create_render, select, signal, text}

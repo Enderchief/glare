@@ -9,6 +9,9 @@ description = "A Gleam project"
 # repository = { type = "github", user = "username", repo = "project" }
 # links = [{ title = "Website", href = "https://gleam.run" }]
 
+
+target = 'javascript'
+
 [dependencies]
 gleam_stdlib = "~> 0.31"
 glare = {path = "/Users/alex/Documents/projects/glare"}
