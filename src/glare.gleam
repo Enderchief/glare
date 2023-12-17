@@ -1,6 +1,6 @@
-import glare/element.{Node}
+import glare/element.{type Node}
 
-pub external type HtmlElement
+pub type HtmlElement
 
 /// Mount a node to a dom element
 ///
@@ -8,22 +8,22 @@ pub external type HtmlElement
 ///       return h1([text("hello world")])
 ///     }
 ///     render(content(), bodyelement)
-pub external fn render(node: Node, elem: HtmlElement) -> Nil =
-  "./core.mjs" "$render"
+@external(javascript, "./core.mjs", "create_render")
+pub fn create_render(node: Node, elem: HtmlElement) -> Nil
 
 /// Select a dom element
 /// used for mounting to, see [`render`](#render)
-pub external fn select(selector: String) -> HtmlElement =
-  "./core.mjs" "doc_selector"
+@external(javascript, "./core.mjs", "doc_selector")
+pub fn select(selector: String) -> HtmlElement
 
 /// Wraps `Int` into [`Node`](./glare/element.html#Node)
-pub external fn int(v: Int) -> Node =
-  "./core.mjs" "wrap"
+@external(javascript, "./core.mjs", "wrap")
+pub fn int(v: Int) -> Node
 
 /// Wraps `String` into [`Node`](./glare/element.html#Node)
-pub external fn text(v: String) -> Node =
-  "./core.mjs" "wrap"
+@external(javascript, "./core.mjs", "wrap")
+pub fn text(v: String) -> Node
 
 /// Wrap a signal getter into [`Node`](./glare/element.html#Node)
-pub external fn signal(v: fn() -> a) -> Node =
-  "./core.mjs" "wrap"
+@external(javascript, "./core.mjs", "wrap")
+pub fn signal(v: fn() -> a) -> Node

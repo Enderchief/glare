@@ -1,4 +1,4 @@
-import glare/element.{Node}
+import glare/element.{type Node}
 
-pub external fn onclick(node: Node, handler: fn() -> Nil) -> Node =
-  "../ffi_event.mjs" "onclick"
+@external(javascript, "../ffi_event.mjs", "onclick")
+pub fn onclick(node: Node, handler: fn() -> Nil) -> Node
