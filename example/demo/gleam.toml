@@ -14,4 +14,4 @@ target = 'javascript'
 
 [dependencies]
 gleam_stdlib = "~> 0.31"
-glare = {path = "/Users/alex/Documents/projects/glare"}
+glare = {path = "../../"}
