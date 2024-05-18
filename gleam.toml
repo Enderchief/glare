@@ -1,5 +1,5 @@
 name = "glare"
-version = "0.1.4"
+version = "0.1.5"
 description = "Bright Gleam Web Framework using SolidJS"
 
 # Fill out these fields if you intend to generate HTML documentation or publish
